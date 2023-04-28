@@ -2,7 +2,11 @@
 
 # Supplementary Information to “What Cannot Be Seen Correctly in 2D Visualizations of Single-Cell ‘Omics Data?” by Shu Wang, Eduardo D Sontag, Douglas A Lauffenburger.
 
-Data analysis is performed on a public single-cell RNAseq dataset found at https://www.10xgenomics.com/resources/datasets/pbmcs-3p_acda_sepmate-3-1-standard
+Data analysis is performed on a public single-cell RNAseq dataset found at https://www.10xgenomics.com/resources/datasets/pbmcs-3p_acda_sepmate-3-1-standard . To use the other pieces of code that operate on this dataset, load the unzipped data using **"load_pbmcdata.m"**.
+
+The code for **"parti_variance_fig.m"** relies on the PARTI package (https://www.weizmann.ac.il/mcb/UriAlon/download/ParTI).
+
+The code for **"master_homology.m"** relies on the JavaPlex package (https://github.com/appliedtopology/javaplex/releases/).
 
 ## Computing geodesics of data manifolds, inevitably curved geodesics in 2D representations, and the differential geometry of data manifolds
 
